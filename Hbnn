@@ -1,0 +1,136 @@
+<html>
+ <head>
+  <title>
+   Web Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #1a1a1a;
+            font-family: 'Arial', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="text-white">
+  <div class="p-4">
+   <!-- Header -->
+   <div class="flex items-center justify-between">
+    <div class="flex items-center">
+     <img alt="Profile picture of a hamster" class="rounded-full w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/eoFciGNaqwVIJyRsGuwqNIvedrn6IUuf5tiyXSqdClegXaQOB.jpg" width="50"/>
+     <div class="ml-2">
+      <p class="text-lg font-bold">
+       Hasnain Bhai (CEO)
+      </p>
+     </div>
+    </div>
+    <div class="flex items-center space-x-4">
+     <div class="flex items-center bg-gray-800 p-2 rounded-full">
+      <i class="fas fa-qrcode text-white">
+      </i>
+      <p class="ml-2 text-blue-400">
+       +1.13
+      </p>
+      <i class="fas fa-cog text-white ml-2">
+      </i>
+     </div>
+     <div class="bg-blue-800 p-2 rounded-full">
+      <i class="fas fa-heart text-white">
+      </i>
+      <p class="ml-2">
+       Memories
+      </p>
+     </div>
+    </div>
+   </div>
+   <!-- New Today Section -->
+   <div class="mt-6">
+    <h2 class="text-center text-xl font-bold">
+     New today
+    </h2>
+    <div class="flex justify-center space-x-4 mt-4">
+     <div class="bg-gray-800 p-4 rounded-lg text-center">
+      <img alt="Image of a hamster on a snake" class="rounded-lg" height="100" src="https://storage.googleapis.com/a1aa/image/bfRFcn1vaJx2fkOVKPqndeGF6OtErEmCMfLW58Revs3lu0gcC.jpg" width="100"/>
+      <p class="mt-2">
+       Snake Run
+      </p>
+      <p class="text-gray-400">
+       Game
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg text-center">
+      <img alt="Image of a hamster in a restaurant" class="rounded-lg" height="100" src="https://storage.googleapis.com/a1aa/image/w8Zu6E7rS9JqP9pKoW9dPP8NVUN1s8KKJKVm3fS4vgl6SDyJA.jpg" width="100"/>
+      <p class="mt-2">
+       Cooking Stories
+      </p>
+      <p class="text-gray-400">
+       Game
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg text-center">
+      <img alt="Image of a hamster with numbers" class="rounded-lg" height="100" src="https://storage.googleapis.com/a1aa/image/WlopqBQXCr62LNjTEyjDq6kLee0m2U7dbCK6ykWRCfrlLNInA.jpg" width="100"/>
+      <p class="mt-2">
+       Count Masters
+      </p>
+      <p class="text-gray-400">
+       Game
+      </p>
+     </div>
+    </div>
+   </div>
+   <!-- Diamond Section -->
+   <div class="mt-6 text-center">
+    <i class="fas fa-gem text-blue-400 text-3xl">
+    </i>
+    <p class="text-3xl font-bold">
+     34.44
+    </p>
+   </div>
+   <!-- Character Section -->
+   <div class="mt-6 flex justify-center">
+    <div class="bg-gradient-to-r from-blue-500 to-purple-500 p-6 rounded-full">
+     <img alt="Image of a hamster in a black hoodie" class="rounded-full" height="200" src="https://storage.googleapis.com/a1aa/image/kq2Vtddpxu4lPhvBMuxdws4N7sIyIbCemIUBoyOmH947SDyJA.jpg" width="200"/>
+    </div>
+   </div>
+   <!-- Footer Navigation -->
+   <div class="mt-6 flex justify-around bg-gray-800 p-4 rounded-lg">
+    <div class="text-center">
+     <i class="fas fa-qrcode text-white text-2xl">
+     </i>
+     <p>
+      Exchange
+     </p>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-gamepad text-white text-2xl">
+     </i>
+     <p>
+      Playground
+     </p>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-coins text-yellow-400 text-2xl">
+     </i>
+     <p>
+      AirDrop
+     </p>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-users text-white text-2xl">
+     </i>
+     <p>
+      Friends
+     </p>
+    </div>
+    <div class="text-center">
+     <i class="fas fa-gem text-white text-2xl">
+     </i>
+     <p>
+      Earn
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
